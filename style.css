@@ -1,0 +1,325 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+   
+}
+.whats{
+  height: 55px;
+  cursor: pointer;
+
+}
+.insta{
+  height: 42px;
+  cursor: pointer;
+
+}
+.linked{
+  height: 45px;
+  cursor: pointer;
+
+}
+#foot{
+
+  position: relative;
+  top: 42px;
+}
+.face{
+  height: 35px;
+  cursor: pointer;
+
+}
+.play{
+  height: 180px;
+  cursor: pointer;
+
+}
+.apple{
+  height: 63px;
+  cursor: pointer;
+
+}
+#zoom:hover #image {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z21:hover #p21 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z22:hover #p22 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z23:hover #p23 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z24:hover #p24 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z25:hover #p25 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z26:hover #p26 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z27:hover #p27{
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z28:hover #p28 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z29:hover #p29 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z30:hover #p30 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z31:hover #p31 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z32:hover #p32 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z33:hover #p33 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+#z34:hover #p34 {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: red 0px 5px 15px;
+}
+.categories {
+  border: 4px solid #276c23;
+  font-size: 40px;
+  background-color: #a3d2d0;
+  margin: 25px 740px;
+  text-shadow: 3px 3px 3px #137c1b;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  /* color: rgb(89, 132, 217); */
+  box-shadow: red 0px 5px 15px;
+  border-radius: 50px;
+}
+
+
+.flex{
+  
+  
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.profile{
+  height: 20px;
+  display: flex;
+  margin: 3px 3px;
+  
+}
+.icons{
+
+  position: relative;
+  left: 100px;
+}
+.right{
+  font-size: 12px;
+  /* flex-direction: column; */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.left{
+  position: relative;
+  right: 100px;
+  
+}
+
+.response{
+
+  color: black;
+  text-decoration: none;
+}
+.left img{
+
+  width: 68px;
+  height: 48px;
+  position: relative;
+  right: 25px;
+}
+.homeimg{
+    position: relative;
+    left: 40px;
+    padding: 23px;
+    width: 90vw;
+    height: 600px;
+  }
+ .itemimg{
+       
+    margin: 20px 20px;
+    width: 12vw;
+  
+  }
+  nav{
+    
+    height: 85px;
+    font-size: 15px;
+    font-weight: 500;
+    
+   
+}
+.container{
+
+  width: 80vw;
+  z-index: 9999;
+  flex-wrap: wrap;
+   padding: 0px 10vw;
+    
+    
+}
+nav ul li{
+    
+    list-style: none;
+    padding: 0 15px;
+   
+}
+
+
+.search{
+  position: relative;
+  left: 70px;
+  width: 540px;
+  padding: 9px 12px;
+  height: 21px;
+  border-radius: 6px;
+  font-size: small;
+  border: 0px;
+  background-color: rgb(242, 242, 242);
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+     box-shadow: 0 0px 6px rgba(0,0,0,0.16), 0 0px 6px rgba(0,0,0,0.23);;
+}
+
+.section1{
+
+    background-color: rgb(241, 241, 241);
+    
+}
+.container2:hover img {
+  transform: scale(1.05)
+}
+
+/* Carousel Container */
+.carousel {
+  
+  width: 120%; /* Adjust width as needed */
+  height: 354px; /* Set height */
+  overflow: hidden; 
+  position: relative;
+  left: 82px;
+  margin: auto;
+}
+
+#carouselExampleSlidesOnly2{
+
+  width: 120%; /* Adjust width as needed */
+  height: 354px; /* Set height */
+  overflow: hidden; 
+  position: relative;
+  left: 48px;
+  margin: auto;
+  
+}
+
+
+/* Inner Container for Slides */
+.carousel-inner {
+  display: flex; /* Align items horizontally */
+  width: 300%; /* 100% * number of slides */
+  height: 100%;
+ 
+  animation: slide 30s infinite; /* 12 seconds for all slides */
+}
+
+/* Individual Carousel Items */
+.carousel-item {
+  flex: 0 0 100%; /* Each slide takes full width of the carousel */
+  height: 100%;
+  position: relative;
+  transition: transform 0.5s ease-in-out; /* Smooth transition for manual controls */
+}
+
+/* Images */
+.d-block {
+  width: 90vw;
+  height: 150px;
+  /* object-fit: cover; */
+}
+.d-block2 {
+  width: 94vw;
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+
+
+/* Keyframes for Sliding Effect */
+@keyframes slide {
+  0%, 20% {
+    transform: translateX(0); /* Show the first slide */
+  }
+  33.33%, 53.33% {
+    transform: translateX(-100%); /* Slide to the second slide */
+  }
+  66.66%, 86.66% {
+    transform: translateX(-200%); /* Slide to the third slide */
+  }
+  100% {
+    transform: translateX(0); /* Loop back to the first slide */
+  }
+}
+
